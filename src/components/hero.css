@@ -1,0 +1,70 @@
+#hero {
+    width: 100%;
+    height: 500px;
+    background-color: #2196F3; /* Color principal (azul) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .cont-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+  }
+  
+  .img-hero {
+    width: 380px;
+    height: 270px;
+    border: 5px solid #1976D2; /* Color más oscuro del azul */
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+    margin-left: 3%;
+    transition: transform 0.3s ease;
+  }
+  
+  .img-hero:hover {
+    transform: scale(1.1);
+  }
+  
+  .title {
+    margin-top: 30px;
+  }
+  
+  .title h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title span {
+    font-size: 24px;
+  }
+  
+/* Animación de fondo */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Aplicando la animación */
+#hero {
+  background: linear-gradient(45deg, #007BFF, #00B0FF, #3D6CB9, #00BFFF);
+  background-size: 400% 400%;
+  animation: gradientAnimation 8s linear infinite; /* Ajustamos la velocidad y el timing */
+}
+
+  

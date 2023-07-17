@@ -1,0 +1,38 @@
+
+
+nav {
+    background-color: #2196F3;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  h2.logo {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  nav button {
+    height: 40px;
+    background-color: #00BCD4;
+    border: none;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #007BCC;
+  }
+
+  
+  button a{
+    text-decoration: none;
+    color: white;
+  }
