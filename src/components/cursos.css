@@ -8,6 +8,7 @@
   -webkit-background-clip: text;
   color: transparent;
   animation: shine 2s infinite; /* Agrega animación al texto */
+  
 }
 
 @keyframes shine {
