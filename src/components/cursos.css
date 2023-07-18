@@ -110,3 +110,54 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el contenedor de todos los cursos en móvil */
+@media screen and (max-width: 768px) {
+  .cont-todos-cursos {
+    padding: 20px; /* Ajustamos el padding en móvil */
+  }
+
+  .cont-curso {
+    width: 100%; /* Ajustamos el ancho al 100% en móvil */
+    margin-bottom: 20px;
+    padding: 15px; /* Ajustamos el padding en móvil */
+  }
+
+  .cont-curso h2 {
+    font-size: 20px; /* Ajustamos el tamaño del título en móvil */
+    margin-bottom: 10px;
+  }
+
+  .img-curso {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Agrega bordes redondeados a la imagen */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Agrega sombra a la imagen */
+  }
+
+  .texto-curso {
+    font-size: 14px; /* Ajustamos el tamaño del texto en móvil */
+    margin-top: 10px;
+  }
+
+  /* Estilos para el botón de comprar en móvil */
+  .cont-curso button {
+    margin-top: 15px;
+    padding: 8px 15px; /* Ajustamos el padding en móvil */
+    font-size: 14px; /* Ajustamos el tamaño del texto en móvil */
+  }
+}
+
+

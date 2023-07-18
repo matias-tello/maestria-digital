@@ -68,3 +68,33 @@
 }
 
   
+
+
+
+
+
+
+
+
+/* Estilos para la versión móvil */
+@media (max-width: 768px) {
+  .title span {
+    display: none; /* Ocultar el span en la versión móvil */
+  }
+
+  .title h1 {
+    font-size: 30px; /* Tamaño de fuente más grande para dispositivos móviles */
+    margin-bottom: 5px; /* Ajusta el margen inferior del título */
+  }
+
+  .cont-hero {
+    flex-direction: column; /* Cambiar la dirección del flexbox para apilar verticalmente */
+  }
+
+  .img-hero {
+    width: 300px; /* Ajustar el tamaño de la imagen para dispositivos móviles */
+    height: 200px;
+    margin: 10px 0; /* Ajustar el margen de la imagen */
+  }
+}
+
