@@ -20,29 +20,34 @@ import podcastmarketing from "./imagenes/podcast marketing.png";
 import programacion0 from "./imagenes/programacion desde 0.png";
 import programacionweb from "./imagenes/programacion web.png";
 import webbasicoavanzado from "./imagenes/web de basico a avanzado.png";
+import invertirbolsa from "./imagenes/invertirbolsa.png"
+import traiding from "./imagenes/traiding.png"
 import AOS from "aos";
 import "aos/dist/aos.css"; // Importa los estilos de AOS
 
 
 function Cursos() {
  
+  
+
+
 const Productos = [
   {
-    titulo:"Todo sobre emprendimiento",
-    imgUrl: aprendetodoemprendimiento,
+    titulo:"Traiding",
+    imgUrl: traiding,
     id: 1,
     descripcion:
-      "En este curso aprenderás de forma sencilla, personalizada y de por vida los procesos y conocimientos necesarios para que tu negocio, emprendimiento o marca personal de una vez por toda la rompa de ahora en adelante.",
-    link:"https://go.hotmart.com/O84785259F"   
+      "Aprende trading desde cero es un curso desarrollado por Eyetrade la academia #1 de Colombia, en el cual busca que las personas que deseen iniciar en el mundo del trading y las inversiones bursátiles, lo hagan con los respectivos conocimientos fundamentales, en Eyetrade creemos firmemente que un buen profesional del mercado de valores es aquel que se capacita y entiende desde sus comienzos a gestionar sus operaciones teniendo en cuenta su análisis técnico y fundamental además de su psicología para así lograr ser profesionalmente rentable mes a mes.",
+    link:"https://go.hotmart.com/T84990448R"   
     
     },
   {
     titulo:"Invertir en la bolsa",
-    imgUrl: bolsanovatos,       
+    imgUrl: invertirbolsa,       
     id: 2,
     descripcion:
-      "Es un curso esencial que te brinda los conocimientos fundamentales y estrategias clave para comenzar en el mundo de la inversión en bolsa. Aprende de expertos en el campo y descubre cómo tomar decisiones informadas y maximizar tus oportunidades de inversión. ¡Inicia tu viaje hacia el éxito financiero ahora!",
-      link:"https://go.hotmart.com/L84785124N"  
+      "¿Qué es una Acción?  A las compañías que se hacen públicas por primera vez se les conoce como IPO (Initial Public Offe- ring), el propósito de estas compañías es recaudar capital para ampliar sus operaciones, esto lo logran vendiéndole acciones al público y de esta forma usted tiene la posibilidad de convertirse en dueño de una porción de esta compañía y en muchos casos recibir dividendos por sus ganancias trimestrales, además de beneficiarse del incremento del precio de sus acciones.",
+      link:"https://go.hotmart.com/X84990387V"  
   },
   {
     titulo:"Programacion",
